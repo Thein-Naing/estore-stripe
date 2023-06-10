@@ -1,9 +1,14 @@
-import React from 'react'
+import { Button, Container, Navbar, Modal, } from 'react-bootstrap';
 
-const Navbar = () => {
+
+const NavbarComponent = () => {
   return (
-    <div>Navbar</div>
+    <Navbar>
+      <Navbar.Brand>
+
+      </Navbar.Brand>
+    </Navbar>
   )
 }
 
-export default Navbar;
+export default NavbarComponent;
