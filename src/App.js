@@ -2,7 +2,7 @@ import './App.css';
 import NavbarComponent from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
-import { BrowserRoutr as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Cancel from './pages/Cancel';
 import Store from './pages/Store';
 import Success from './pages/Success';
