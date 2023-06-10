@@ -3,6 +3,7 @@ import { Button, Container, Navbar, Modal, } from 'react-bootstrap';
 
 const NavbarComponent = () => {
   return (
+    <>
     <Navbar expand='sm'>
       <Navbar.Brand href='/'>
         E-Store
@@ -12,6 +13,7 @@ const NavbarComponent = () => {
         <Button> Card 0 Item</Button>
       </Navbar.Collapse>
     </Navbar>
+    </>
   )
 }
 
