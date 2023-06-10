@@ -10,3 +10,11 @@ export const CartContext = createContext({
     deleteFromCart: () => {},
     getTotalCost: () => {}
 });
+
+
+
+export const  CartProvider = ({children}) => {
+  <CartProvider>
+    ABC
+  </CartProvider>
+}
