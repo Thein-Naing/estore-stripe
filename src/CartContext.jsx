@@ -41,7 +41,7 @@ import { productsArray, getProductData } from "./helper/productsArray";
         cartProducts.map(
           (product) =>
             product.id === id // if condition
-              ? { ...product, qauntity: product.quantity + 1 } // if statement is true.
+              ? { ...product, quantity: product.quantity + 1 } // if statement is true.
               : product // if statement is false.
         )
       );
