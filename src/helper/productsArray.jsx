@@ -3,7 +3,7 @@
 //Camera :price_1NHhd2HpTTELhGYNWOiZig6S
 const productsArray = [
   {
-      id: " price_1NHhY9HpTTELhGYNqJko5s5l",
+      id: "price_1NHhY9HpTTELhGYNqJko5s5l",
       title: "Coffee",
       price: 4.99
   },
@@ -22,12 +22,12 @@ const productsArray = [
 const getProductData =(id) => {
   let productData = productsArray.find(product => product.id === id);
 
-  if (productData === undefined) {
-      console.log("Product data does not exist for ID: " + id);
-      return undefined;
-  }
+    if (productData === undefined) {
+        console.log("Product data does not exist for ID: " + id);
+        return undefined;
+    }
 
-  return productData;
+    return productData;
 }
 
 export { productsArray, getProductData };

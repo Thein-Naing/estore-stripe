@@ -1,11 +1,10 @@
-//pk_test_51NESrqHpTTELhGYNLcO9J2PzPFHJE2mJLBVUuqv5NBF12heMthn2nQDE4Vk6eHJ1jfCepUisyvtNVpGeftS4qosh00zBENIGIi
-//coffee : price_1NHhY9HpTTELhGYNqJko5s5l
-//Sunglesses : price_1NHhbqHpTTELhGYNGYTVa2DF
-//Camera :price_1NHhd2HpTTELhGYNWOiZig6S
-
+// sk_test_51LnUKJDM1jwCEz8OJG69szv032rIo4X0WrFMaXrqxu9g8fdohsL1y54JEUhFUKrqoBquVjN3AzpIFyrbN915bgcd00O5hqoGCJ
+// Coffee: price_1LnUTFDM1jwCEz8OGoOSXiSM
+// Sunglasses: price_1LnUTxDM1jwCEz8OAqHYTwKQ
+// Camera: price_1LnUUoDM1jwCEz8OvxIcJ7to
 const express = require('express');
 var cors = require('cors');
-const stripe = require('stripe')('STRIPE_URI');
+const stripe = require('stripe')('sk_test_51NESrqHpTTELhGYNLVL3YxaVpNNtOc37fblMootHny2zi36mfFosGgc5TLbZDkOBts1BfcyzuMmIe1Q6kXs75Kqw001fdvkz6s');
 
 const app = express();
 app.use(cors());
