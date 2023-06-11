@@ -19,7 +19,7 @@ const NavbarComponent = () => {
         <Navbar.Brand href="/">E-Store</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <Button onClick={handleShow}> Card 0 Item</Button>
+          <Button onClick={handleShow}> Card {productsCount}</Button>
         </Navbar.Collapse>
       </Navbar>
       <Modal show={show} onHide={handleClose}>
