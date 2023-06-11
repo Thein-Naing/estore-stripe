@@ -8,7 +8,7 @@ const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const STRIPE_URI='pk_test_51NESrqHpTTELhGYNLcO9J2PzPFHJE2mJLBVUuqv5NBF12heMthn2nQDE4Vk6eHJ1jfCepUisyvtNVpGeftS4qosh00zBENIGIi'
-
+const PORT = process.env.PORT || 4000
 
 const stripe = require('stripe')(STRIPE_URI);
 
@@ -54,5 +54,7 @@ const session = await stripe.checkout.sessions.create({
  res.send(JSON.stringify({
   url: session.url
  }));
-})
-// app.listen()
+});
+
+
+app.listen(PORT, ()=> console.log(`Listening on port ${PORT} `));
