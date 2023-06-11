@@ -4,8 +4,8 @@
 -  Build a Shopping Cart with React & Stripe  
 -  This is the one of the best tutorials from Travesary media youtube channel(youtube.com/@TraversyMedia)/ Guest Creators/ 
     Coopers Codes youtube channel(youtube.com/c/CooperCodes). Mr Coopers Codes explain precisely every step with just simple words especially for useContext hook.
--  This tutorials cover and explain really simple words to React, Bootstrap, useState, useContext hooks, modal,Stripe, javscript array and
-   mapping array very clearly. 
+-  This tutorials cover and explain React, Bootstrap, useState, useContext hooks, modal,Stripe, javscript array and
+   mapping array with really simple words and very clearly. 
 -  I already enrolled and bought 'mern stack ecommerce course from scratch' from Travesary media.com and this course is also one of the best mern stack course 
    for layman/idiot like me. Instructor Brad explain evey steps in very details and also very smart, very precise and very clean coding practice of instructor is 
    also fucking awesome.
