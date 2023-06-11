@@ -23,7 +23,12 @@ export const CartProvider = ({ children }) => {
       return quantity;
 };
 
-  const addOneToCart = () => {
+  const addOneToCart = (id) => {
+    const quantity = getProductQuantity(id);
+    if (quantity === 0) { //product is not in the cart.
+    } else { //product is in the cart.
+
+    }
 
   };
 
