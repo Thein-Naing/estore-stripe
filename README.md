@@ -1,5 +1,5 @@
 # Hi there!...
-   Finally can link frontend and stripe account. Checkout/payment all working.I created test account/fake card number and tested it. ALl work fine.
+   Finally can link frontend and stripe account. Checkout/payment all working.I created test account/fake card number and tested it. All are working fine.
    You can check below images.
 -  Build a Shopping Cart with React & Stripe  
 -  This is the one of the best tutorials from Travesary media youtube channel(youtube.com/@TraversyMedia)/ Guest Creators/ 
