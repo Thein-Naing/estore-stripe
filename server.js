@@ -51,6 +51,8 @@ const session = await stripe.checkout.sessions.create({
   cancel_url:'http://localhost:3000/cancel',
 
 });
-
+ res.send(JSON.stringify({
+  url: session.url
+ }));
 })
 // app.listen()
