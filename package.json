@@ -7,11 +7,14 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.12.1",
     "react-scripts": "5.0.1",
+    "stripe": "^12.9.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -40,7 +43,6 @@
   },
   "description": "-  Build a Shopping Cart with React & Stripe   -  This is the one of the best tutorials from Travesary media youtube channel(youtube.com/@TraversyMedia)/ Guest Creators/      Coopers Codes youtube channel(youtube.com/c/CooperCodes). -  This tutorials cover and explain really simple words to React, Bootstrap, useState, useContext hooks, modal,Stripe and javscript array and    mapping array very clearly.  -  I already enrolled and bought 'mern stack ecommerce course from scratch' from Travesary media.com and this course is also on of the best mern stack course     for layman like me. Instructor Brad explain evey steps in very details and also very smart, very precise and very clean coding practice of instructor is     also fucking awesome. -  you can check it out his products here:https://www.traversymedia.com/.I do not get any adv fee for this. Just sharing good coding websites only.",
   "main": "server.js",
-  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC"
