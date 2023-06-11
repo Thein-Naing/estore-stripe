@@ -14,9 +14,14 @@ export const CartProvider = ({ children }) => {
   const[cartProducts, setCartProducts] = useStae([]);
   //{id: 1, quantity: 2}
 
-  const getProductQuantity = () => {
+  const getProductQuantity = (id) => {
 
-  };
+    const quantity = cartProducts.find(product => product.id === id)?.quantity;
+      if (quantity === undefined ) {
+        return 0;
+      }
+      return quantity;
+};
 
   const addOneToCart = () => {
 
