@@ -1,5 +1,5 @@
 # Hi there!...
-Finally can link fornt end and stripe account. Checkout/payment all working. You can check final site here: 
+   Finally can link fornt end and stripe account. Checkout/payment all working. You can check final site here: 
 -  Build a Shopping Cart with React & Stripe  
 -  This is the one of the best tutorials from Travesary media youtube channel(youtube.com/@TraversyMedia)/ Guest Creators/ 
     Coopers Codes youtube channel(youtube.com/c/CooperCodes).
@@ -9,7 +9,7 @@ Finally can link fornt end and stripe account. Checkout/payment all working. You
    for layman like me. Instructor Brad explain evey steps in very details and also very smart, very precise and very clean coding practice of instructor is 
    also fucking awesome.
 -  you can check it out his products here:https://www.traversymedia.com/.I do not get any adv fee for this. Just sharing good coding websites only.
-
+![image](https://github.com/Thein-Naing/estore-stripe/assets/117463446/042956dc-6f62-4531-af5c-bf6bf8a53589)
 
 
 
