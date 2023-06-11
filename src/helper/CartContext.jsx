@@ -1,6 +1,8 @@
 import { createContext, useState } from "react";
 import { productsArray, getProductData } from "./productsStore";
 
+// create CartContext object/hook here first.
+//after that create contextValue function and individual function for each objects inside this contextValue.
 export const CartContext = createContext({
   items: [],
   getProductQuantity: () => {},
@@ -11,7 +13,7 @@ export const CartContext = createContext({
 });
 
 export const CartProvider = ({ children }) => {
-  const [cartProducts, setCartProducts] = useStae([]);
+  const [cartProducts, setCartProducts] = useState([]);
   //{id: 1, quantity: 2}
 
   const getProductQuantity = (id) => {
@@ -72,7 +74,17 @@ export const CartProvider = ({ children }) => {
     }
   };
 
-  const getTotalCost = () => {};
+  const getTotalCost = () => {
+    let totalCost = 0;
+    cartProducts.map((cartItem) => {
+      const productData = getProductData(cartItem.id);
+      totalCost += productData.price * cartItem.quantity;
+    });
+    return totalCost;
+  };
+
+  // declare contextValue function
+  //and after that create individual function for each objects..
 
   const contextValue = {
     items: cartProducts,
@@ -87,3 +99,9 @@ export const CartProvider = ({ children }) => {
     <CartContext.Provider value={contextValue}>{children}</CartContext.Provider>
   );
 };
+
+export default CartProvider;
+
+//Code down here.
+// Context(cart, addToCart, removeCart)
+//Provider -> gives our React app access to all the things in our context.
