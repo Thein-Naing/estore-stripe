@@ -6,4 +6,17 @@
 //import all dependencies.
 const express = require('express');
 const cors = require('cors');
-const stripe = require('stripe');
+const dotenv = require('dotenv');
+const STRIPE_URI='pk_test_51NESrqHpTTELhGYNLcO9J2PzPFHJE2mJLBVUuqv5NBF12heMthn2nQDE4Vk6eHJ1jfCepUisyvtNVpGeftS4qosh00zBENIGIi'
+
+
+const stripe = require('stripe')(STRIPE_URI);
+
+const app = express();
+
+app.use(express.static('public'));
+app.use(cors());
+app.use(express.json());
+
+
+app.listen()
