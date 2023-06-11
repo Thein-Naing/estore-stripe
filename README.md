@@ -5,9 +5,9 @@
 -  This tutorials cover and explain really simple words to React, Bootstrap, useState, useContext hooks, modal, and Stripe and even javscript array and
    mapping array very clearly. 
 -  I already enrolled and bought 'mern stack ecommerce course from scratch' from Travesary media.com and this course is also on of the best mern stack course 
--  for layman like me. Instructor Brad explain evey steps in very details and also very smart, very precise and very clean coding practice of instructor is 
--  also fucking awesome.
--  you can check it out his products here:https://www.traversymedia.com/.
+   for layman like me. Instructor Brad explain evey steps in very details and also very smart, very precise and very clean coding practice of instructor is 
+   also fucking awesome.
+-  you can check it out his products here:https://www.traversymedia.com/.I do not get any adv fee for this. Just sharing good coding websites only.
 
 
 
