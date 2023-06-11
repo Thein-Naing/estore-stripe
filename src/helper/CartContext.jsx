@@ -14,6 +14,31 @@ export const CartProvider = ({ children }) => {
   const[cartProducts, setCartProducts] = useStae([]);
   //{id: 1, quantity: 2}
 
+  const getProductQuantity = () => {
+
+  };
+
+  const addOneToCart = () => {
+
+  };
+
+  const removeOneFromCart = () => {
+
+  };
+
+  const deleteFromCart = () => {
+
+  };
+
+  const getTotalCost = () => {
+
+  };
+
+
+
+
+
+
   const contextValue = {
   items: cartProducts,
   getProductQuantity,
