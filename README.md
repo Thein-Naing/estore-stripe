@@ -6,8 +6,8 @@
     Coopers Codes youtube channel(youtube.com/c/CooperCodes).
 -  This tutorials cover and explain really simple words to React, Bootstrap, useState, useContext hooks, modal,Stripe and javscript array and
    mapping array very clearly. 
--  I already enrolled and bought 'mern stack ecommerce course from scratch' from Travesary media.com and this course is also on of the best mern stack course 
-   for layman like me. Instructor Brad explain evey steps in very details and also very smart, very precise and very clean coding practice of instructor is 
+-  I already enrolled and bought 'mern stack ecommerce course from scratch' from Travesary media.com and this course is also one of the best mern stack course 
+   for layman/idiot like me. Instructor Brad explain evey steps in very details and also very smart, very precise and very clean coding practice of instructor is 
    also fucking awesome.
 -  you can check it out his products here:https://www.traversymedia.com/.I do not get any adv fee for this. Just sharing good coding websites only.
 ![image](https://github.com/Thein-Naing/estore-stripe/assets/117463446/042956dc-6f62-4531-af5c-bf6bf8a53589)
