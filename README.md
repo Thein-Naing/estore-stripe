@@ -1,5 +1,6 @@
 # Hi there!...
-   Finally can link fornt end and stripe account. Checkout/payment all working. You can check final site here: 
+   Finally can link fornt end and stripe account. Checkout/payment all working.I created test account/fake card numebred and test it. ALl work fine.
+   You can check below images.
 -  Build a Shopping Cart with React & Stripe  
 -  This is the one of the best tutorials from Travesary media youtube channel(youtube.com/@TraversyMedia)/ Guest Creators/ 
     Coopers Codes youtube channel(youtube.com/c/CooperCodes).
