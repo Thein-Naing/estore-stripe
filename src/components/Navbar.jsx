@@ -4,10 +4,13 @@ import { CartContext } from "../CartContext";
 // import CartProduct from './CartProduct';
 
 const NavbarComponent = () => {
-  const cart = useContext(CartContex);
+  const cart = useContext(CartContext);
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const productsCount = cart.items.reduce((sum, product)=>
+  sum + product.quantity, 0);
 
 
   return (
