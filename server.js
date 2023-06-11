@@ -19,4 +19,20 @@ app.use(cors());
 app.use(express.json());
 
 
-app.listen()
+app.post('/checkout', async(req, res)=> {
+  /*
+  req.body.items [
+    {
+      id: 1,
+      quantity: 3
+    }
+  ]
+  but stripe wants like this [
+    {
+      price: 1,
+      quantity: 3
+    }
+  ]
+  */
+})
+// app.listen()
