@@ -1,3 +1,4 @@
+# Hi there!...
 -  Build a Shopping Cart with React & Stripe .-  
 -  This is the one of the best tutorials from Travesary media youtube channel(youtube.com/@TraversyMedia)/ Guest Creators/ 
 -  Coopers Codes youtube channel(youtube.com/c/CooperCodes).
