@@ -46,23 +46,31 @@ export const CartProvider = ({ children }) => {
     }
   };
 
-
   const deleteFromCart = (id) => {
-// filter: [] if an obj meet a condition , then add obj to [].
-// [p1, p2, p3] => [p1, p3] if there is no id for product 2.
-   setCartProducts(cartProducts =>
-    cartProducts.filter(currentProduct => {
-      return currentProduct.id !== id;
-    })
-    )
+    // filter: [] if an obj meet a condition , then add obj to [].
+    // [p1, p2, p3] => [p1, p3] if there is no id for product 2.
+    setCartProducts((cartProducts) =>
+      cartProducts.filter((currentProduct) => {
+        return currentProduct.id !== id;
+      })
+    );
   };
 
-
-
-
-  const removeOneFromCart = () => {};
-
-
+  const removeOneFromCart = (id) => {
+    const quantity = getProductQuantity(id);
+    if (quantity === 1) {
+      deleteFromCart(id);
+    } else {
+      setCartProducts(
+        cartProducts.map(
+          (product) =>
+            product.id === id // if condition
+              ? { ...product, qauntity: product.quantity - 1 } // if statement is true.
+              : product // if statement is false.
+        )
+      );
+    }
+  };
 
   const getTotalCost = () => {};
 
