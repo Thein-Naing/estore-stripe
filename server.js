@@ -5,7 +5,7 @@
 
 const express = require('express');
 var cors = require('cors');
-const stripe = require('stripe')('STRIPR_URI');
+const stripe = require('stripe')('STRIPE_URI');
 
 const app = express();
 app.use(cors());
