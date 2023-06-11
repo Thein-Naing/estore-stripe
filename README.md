@@ -8,7 +8,7 @@
    mapping array with really simple words and very clearly. 
 -  I already enrolled and bought 'mern stack ecommerce course from scratch' from Travesary media.com and this course is also one of the best mern stack course 
    for layman/idiot like me. Instructor Brad explain evey steps in very details and also very smart, very precise and very clean coding practice of instructor is 
-   also fucking awesome.
+   also fxxxxxg awesome.
 -  you can check it out his products here:https://www.traversymedia.com/.I do not get any adv fee for this. Just sharing good coding websites only.
 ![image](https://github.com/Thein-Naing/estore-stripe/assets/117463446/042956dc-6f62-4531-af5c-bf6bf8a53589)
 ![image](https://github.com/Thein-Naing/estore-stripe/assets/117463446/ce60e83d-7c1a-49f1-985e-8635c8bf9f46)
