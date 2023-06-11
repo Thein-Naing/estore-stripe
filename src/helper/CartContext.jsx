@@ -14,7 +14,7 @@ export const CartProvider = ({ children }) => {
   const[cartProducts, setCartProducts] = useStae([]);
   //{id: 1, quantity: 2}
 
-  const getProductQuantity = (id) => {
+  const getProductQuantity = (id) => { // find total product quantities first.
 
     const quantity = cartProducts.find(product => product.id === id)?.quantity;
       if (quantity === undefined ) {
@@ -23,14 +23,26 @@ export const CartProvider = ({ children }) => {
       return quantity;
 };
 
-  const addOneToCart = (id) => {
+  const addOneToCart = (id) => { // add new one to cart.
     const quantity = getProductQuantity(id);
     if (quantity === 0) { //product is not in the cart.
+      setCartProducts(
+        [...cartProducts, { id: id, quantity: 1}]
+      )
     } else { //product is in the cart.
-
+    //[...{id: 1, quantity: 3}, { id: 2 , quantity: 1 }] , we wanna add product id: 2.
+      setCartProducts(
+        cartProducts.map( product=>
+          product.id === id ? // if condition
+          {...product, qauntity: product.quantity + 1} // if statement is true.
+          : product // if statement is false.
+        )
+      )
     }
 
   };
+
+
 
   const removeOneFromCart = () => {
 
