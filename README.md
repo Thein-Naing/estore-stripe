@@ -21,7 +21,7 @@
 
 
 
-
+to fix error: npm install @babel/plugin-proposal-private-property-in-object
 
 
 
